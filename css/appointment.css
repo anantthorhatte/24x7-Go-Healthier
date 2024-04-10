@@ -1,0 +1,71 @@
+
+.app_title{
+    margin-top: 50px;
+    text-align: center;
+    color: #009973;
+}
+.page_title{
+   text-align: center;
+
+}
+
+.app_container{
+ 
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  margin-left:300px;
+}
+
+.div_img{
+    width: 400px;
+    background-color: black;
+}
+
+.app_img{
+    background-color: black;
+    width: 100%; 
+}
+
+.app_content_heading{
+   color: black;
+   padding: 5px; 
+   font-size: 25px;
+}
+
+.app_form{
+  width:500px;
+  background-color: #fff;
+  border-radius: 5px;  
+  border: 1px solid #009973;
+  text-align: center;
+  padding: 8px;
+  margin:40px auto;
+  box-shadow: 0 0 3px #009973 ;
+}
+
+.app_box{
+    display: block;
+    width:90%;
+    margin: 0.1px auto;
+    border-radius: 5px;
+    border: 1px solid #009973 ;
+    font-size: 20px;
+    color: black;
+    padding: 8px 5px;
+
+}
+
+.app_btn{
+ 
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #009973 ;
+    font-size: 20px;
+    color: #009973;
+    padding: 5px;
+    margin: 2px auto;
+    box-shadow: 0 0 3px #009973 ;
+   
+}
+
