@@ -15,17 +15,24 @@
 
 
     <div class="div_img">                             
-       <img src="./../images/appointment_img.jpeg" alt="" class="app_img"/>
+       <img src="./../img/appointment-img.jpg" alt="" class="app_img"/>
     </div>
 
 
     <form class="app_form">
      <h2 class="app_content_heading">Make Appointment</h2>
-     <input type="text" name="name" placeholder="your name" class="app_box"><br>
-     <input type="number" name="number" placeholder="your number" class="app_box"><br>
-     <input type="email" name="email" placeholder="your email" class="app_box"><br>
+   
+   
+     <label for="inputFullName"> </label>
+     <input type="text" name="name" placeholder="Enter your name" class="app_box" id="inputFullName" required><br>
+
+     <label for="phone"> </label>
+     <input type="tel" name="phone" placeholder="Enter your number" class="app_box" id="phone" required ><br>
+
+     <label for="inputEmail"></label>
+     <input type="email" name="email" placeholder="Enter your email" class="app_box" id="inputEmail" required><br>
      <input type="date" name="date" class="app_box"><br>
-     <input type="submit" name="submit" value="appointment now" class="app_btn"><br>
+     <input type="submit" name="submit" value="Appointment now" class="app_btn"><br>
     </form>
 
 
