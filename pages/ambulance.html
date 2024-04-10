@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle</title>
+    <style>
+        body{
+            background-color: #85FFBD;
+            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+            min-height: 100vh;
+
+        }
+        .Game-container{
+           background-color: white; 
+           width: 300px;
+           margin:50px auto;
+           display: flex;
+           justify-content: center;
+           padding: 40px;
+           border-radius: 10px;
+           box-shadow: 0 0 10px black;
+        }
+        .app-title{
+            text-align: center;
+        }
+        .Game-img{
+            height: 100px;
+        }
+        .btn-container{
+            display:flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .btn-toggle{
+            font-size: 20px;
+            padding: 5px 20px;
+            border-radius: 40px;
+            border: none;
+            margin: 0 10px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        .btn-toggle:hover{
+            box-shadow: 0 0 10px black;
+        }
+    
+        @media screen and (max-width: 600px){
+            .Bulb-container{
+                width: 80%;
+            }
+            .bubl-img{
+                height: 150px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="app-title">Games Toggle</h1>
+   <div class="Game-container">
+    <img src="./../img/amb.jpeg" class="Game-img" id="Game">
+
+   </div>
+   <div class="btn-container">
+    <button class="btn-toggle" onclick="togglegame('badminton')">Badminton</button>
+    <button class="btn-toggle" onclick="togglegame('chess-board')">Chess-board</button>
+    <button class="btn-toggle" onclick="togglegame('cricket')">Cricket</button>
+    <button class="btn-toggle" onclick="togglegame('soccer-ball')">Soccer-ball</button>
+    <button class="btn-toggle" onclick="togglegame('soccer-ball')">Soccer-ball</button>
+   </div>
+   <script>
+    function togglegame(state){
+       const GameElement = document.getElementById("Game");
+       if(state =='badmintoon'){
+             GameElement.src = './../img/amb.jpeg';
+       }
+       else if(state =='chess-board'){
+             GameElement.src = './../img/amb-1.jpeg';
+       }
+       else if(state == 'cricket'){
+             GameElement.src ='./../img/amb-2.jpeg';
+       }
+       else if(state == 'soccer-ball'){
+        GameElement.src = './../img/amb-3.webp';
+       }
+       else if(state == 'soccer-ball'){
+        GameElement.src = './../img/amb-4.jpeg';
+       }
+    }
+   </script>
+</body>
+</html>
+</html>
