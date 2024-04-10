@@ -1,11 +1,13 @@
 
 .app_title{
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
     color: #009973;
+    font-size: 50px;
 }
 .page_title{
    text-align: center;
+ 
 
 }
 
@@ -14,23 +16,23 @@
   display: flex;
   flex-wrap: wrap; 
   align-items: center;
-  margin-left:300px;
+  margin-left:30px;
+  margin-top: 90px;
 }
 
 .div_img{
-    width: 400px;
-    background-color: black;
+    width: 700px;
 }
 
 .app_img{
     background-color: black;
-    width: 100%; 
+    width: 100% 
 }
 
 .app_content_heading{
    color: black;
    padding: 5px; 
-   font-size: 25px;
+   font-size: 30px;
 }
 
 .app_form{
@@ -51,10 +53,15 @@
     border-radius: 5px;
     border: 1px solid #009973 ;
     font-size: 20px;
-    color: black;
     padding: 8px 5px;
 
 }
+
+  .app_box:hover{
+
+    box-shadow: 0 0 1px 1px #009973;
+    transition: 2s;
+  }
 
 .app_btn{
  
@@ -63,9 +70,15 @@
     border: 1px solid #009973 ;
     font-size: 20px;
     color: #009973;
-    padding: 5px;
+    padding: 8px 12px;
     margin: 2px auto;
-    box-shadow: 0 0 3px #009973 ;
+    box-shadow: 0 0 3px  #009973 ;
    
+}
+
+.app_btn:hover{
+ 
+    box-shadow: 0 0 0 1px #009973 ;
+    transition: 2s;
 }
 

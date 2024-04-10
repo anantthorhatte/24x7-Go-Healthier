@@ -6,30 +6,92 @@
  <title>Appointment Page</title>
  <link rel="stylesheet" href="./../css/appointment.css"/>
 
+ <link rel="stylesheet" href="./../css/about us.css">
+
  
  </head>
 <body>
- <h1 class="app_title">APPOINTMENT NOW</h1>
+  <!-- Navbar Section Starts -->
 
-  <div class="app_container">
-
-
-    <div class="div_img">                             
-       <img src="./../images/appointment_img.jpeg" alt="" class="app_img"/>
+  <div class="navbar">
+    <div class="brand-container">
+        <span class="brand-text"> </span>
     </div>
+         <a class="anchor a1" href="./../index.html"></a>
+         <a class="anchor a2" href="./../pages/about.html"></a>
+         <a class="anchor a3" href="./../pages/product.html"></a>
+         <a class="anchor a4" href="./../pages/contact.html"></a>
+        <a class="anchor a5" href="./../pages/login.html"></a>
+</div>
+
+    <!-- Navbar Section Ends -->
 
 
-    <form class="app_form">
-     <h2 class="app_content_heading">Make Appointment</h2>
-     <input type="text" name="name" placeholder="your name" class="app_box"><br>
-     <input type="number" name="number" placeholder="your number" class="app_box"><br>
-     <input type="email" name="email" placeholder="your email" class="app_box"><br>
-     <input type="date" name="date" class="app_box"><br>
-     <input type="submit" name="submit" value="appointment now" class="app_btn"><br>
-    </form>
+
+  <!-- Appointments Section Starts -->
+
+    <h1 class="app_title">APPOINTMENT NOW</h1>
+
+      <div class="app_container">
 
 
-  </div>
+      <div class="div_img">                             
+       <img src="./../img/appointment-img.jpg" alt="" class="app_img"/>
+      </div>
+
+
+      <form class="app_form">
+         <h2 class="app_content_heading">Make Appointment</h2>
     
+   
+         <label for="inputFullName"> </label>
+         <input type="text" name="name" placeholder="Enter your name" class="app_box" id="inputFullName" required><br>
+
+         <label for="phone"> </label>
+         <input type="tel" name="phone" placeholder="Enter your number" class="app_box" id="phone" required ><br>
+
+         <label for="inputEmail"></label>
+         <input type="email" name="email" placeholder="Enter your email" class="app_box" id="inputEmail" required><br>
+
+         <input type="date" name="date" class="app_box" id="appointmentDate"><br>
+        <input type="submit" name="submit" value="Appointment now" class="app_btn" onclick="appointmentNow()"><br>
+      </form>
+  </div>
+
+     <!-- Appointments Section Starts -->
+
+
+
+      <!-- Footer Section Starts -->
+     <div class="footer">
+      <div class="footer_A">
+          <h1 class="footer_heading">Quick Links</h1>
+          <h1 class="footer_info_1"><a class="footer_link" href="./../index.html"> </h1></a>
+          <h1 class="footer_info_1"><a class="footer_link" href="./../pages/about-page.html"> </h1></a>
+          <h1 class="footer_info_1"><a class="footer_link" href="./../pages/package.html"> </h1></a>
+          <h1 class="footer_info_1"><a class="footer_link" href="./../pages/login-page.html"></h1></a>
+      </div>
+
+          <img class="footer_phone" src="./../icons/phone_call_img.png" alt="Phone">
+          <img class="footer_mail" src="./../icons/Email_img.png" alt="mail">
+
+      <div class="footer_B">
+          <h1 class="footer_heading_1">Contact Us</h1>
+          <p class="footer_info_2"></p>
+      </div>
+
+
+      <div class="footer_A">
+          <h1 class="footer_heading">Follow Us</h1>
+          <img class="footer_icons" src="./../icons/facebook.png" alt="facebook">
+          <img class="footer_icons" src="./../icons/instagram.png" alt="instagram">
+          <img class="footer_icons" src="./../icons/twitter.png" alt="twitter">
+      </div>
+
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53995.03364630407!2d77.11329769262382!3d32.23952319671067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1708516720938!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+</div>
+    
+  <!-- Footer Section Ends -->
 </body>
 </html>
