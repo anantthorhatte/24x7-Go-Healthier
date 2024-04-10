@@ -14,10 +14,11 @@
   display: flex;
   flex-wrap: wrap; 
   align-items: center;
+  margin-left:300px;
 }
 
 .div_img{
-    width: 500px;
+    width: 400px;
     background-color: black;
 }
 
