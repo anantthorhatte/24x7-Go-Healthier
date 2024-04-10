@@ -66,6 +66,7 @@ body{
 .about{
     display: inline-flex;
 
+
 }
 .desc{
     margin-top: 70px;
@@ -78,9 +79,14 @@ body{
 .desc_about{
   margin-top: 200px;
   display: inline;
-}
-.btn-contact{
   
+}
+.btn-cont{
+  height: 40px;
+  width:120px;
+  background-color: #13A380;
+  position: relative;
+  margin-left: 600px;
 
 }
 
@@ -88,7 +94,7 @@ body{
   display: flex;
   position: relative;
  background-color:  black;
- height: 340px;
+ height: 300px;
  margin-top:40px;
  }
  
@@ -96,7 +102,7 @@ body{
   width: 280px;
   height: 210px;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 40px;
  }
  .footer_heading{
@@ -119,7 +125,7 @@ body{
   width:30px;
   height: 30px;
   position: relative;
-  top: 225px;
+  top: 200px;
   left: 50px;
   color: white;
  }
@@ -127,7 +133,7 @@ body{
   width:30px;
   height: 30px;
   position: relative;
-  top: 268px;
+  top: 250px;
   left: 20px;
  }
  .footer_icons{
