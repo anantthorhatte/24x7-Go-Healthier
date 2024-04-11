@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Health Care</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        .home-img{
+            padding-right: 70px;
+            padding-bottom: 60px;
+           margin-bottom: 70px;
+        }
+    </style>
 </head>
 <body>
-    
+    <nav>
+    <div class="menu">
+        <div class="title">
+            
+        </div>
+<ul  class="names">
+    <li><a href="index.html"><i ><i class="fa-solid fa-house"></i></i>Home</a></li>
+    <li><a href="./pages/about us.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+    <li><a href="./pages/service.html"><i class="fa-solid fa-bell-concierge"></i>Services</a></li>
+    <li><a href="./pages/appointment.html"><i class="fa-sharp fa-solid fa-stethoscope"></i>Appoinment</a></li>
+    <li><a href="./pages/doctor.html"><i class="fa-sharp fa-regular fa-calendar-check"></i>Doctors</a></li>
+    <li><a href="./pages/review.html"><i class="fa-regular fa-star-sharp"></i>Review</a></li>
+    <li><a href="./pages/"></a><i  class="theme-icon active" id="btn-dark" onclick="darkMode()"></i>Dark</a></li>
+   
+</ul>
+
+    </div>
+</nav>
+<div id="div" class="theme-dark">
+
+
+<div class="container">
+   <h1> We take Care Of Your  <br> Healthy Life  </h>
+   <p>
+   <i class="text"> A Person Who Has A Good Physical Health is Likely To Have Bodily <br> Functions And Processess Working At Their Peak </i>
+   </p>
+   <h3> <i>Health Is Wealth </i></h3>
+   <button class="btn-appo">
+    <a href="./pages/appointment.html"></a>
+     Make an Appointment
+   </button>
+<button class="btn-join">
+    Join Us
+</button>
+   
+  <div class="center-img title ">
+
+    <img src="./images/homeimg.jpg"  class="home-img">
+  </div> 
+
+</div>
+<script>
+    function darkMode(){
+        const imgDark= document.getElementById('img-dark');
+        imgDark.classList.add('active');
+
+        const imgLight= document.getElementById('img-light');
+        imgLight.classList.remove('active');
+
+        const bodyElement = document.getElementById('div');
+        bodyElement.className = "theme-dark";
+        }
+    function lightMode(){
+        const imgDark= document.getElementById('img-dark');
+        imgDark.classList.remove('active');
+
+        const imgLight= document.getElementById('img-light');
+        imgLight.classList.add('active');
+
+        const bodyElement = document.getElementById('div');
+        bodyElement.className = "light-dark";
+    }
+</script>
+</div>
 </body>
+
 </html>
