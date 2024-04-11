@@ -15,6 +15,10 @@ body {
 
 h1 {
   color: #4cae4c;
+  text-align: center;
+}
+p{
+  text-align: center;
 }
 
 form {
@@ -28,6 +32,7 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="text"],
 textarea {
   width: 100%;
   padding: 10px;
@@ -49,6 +54,11 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  
+
+}
+.submit{
+  text-align: center;
 }
 
 button:hover {
