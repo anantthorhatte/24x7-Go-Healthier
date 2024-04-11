@@ -71,12 +71,17 @@
       top: 30px;
       left: 30px;
       color: black;
-      background-color:rgb(151, 238, 201) ;
+      background-color:rgb(225, 240, 233) ;
+      border-radius: 10px;
   }
   .but:hover{
       transition: 0.3s;
       box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
       border-radius: 30px;
+  }
+  .but1text{
+    position: relative;
+    bottom: 10px;
   }
   .doc{
       position: relative;
