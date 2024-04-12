@@ -35,10 +35,10 @@ body{
     margin: 0 10px;
     cursor: pointer;
     background-color: #13A380;
-    color: #000;
+    color: #fff;
 }
 .btn-toggle:hover{
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #13A380;
 }
 
 @media screen and (max-width: 600px){
