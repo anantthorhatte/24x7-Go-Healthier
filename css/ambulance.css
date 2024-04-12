@@ -35,18 +35,28 @@ body{
     margin: 0 10px;
     cursor: pointer;
     background-color: #13A380;
-    color: #000;
+    color: #fff;
 }
 .btn-toggle:hover{
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #13A380;
 }
 
 @media screen and (max-width: 600px){
-    .Bulb-container{
-        width: 80%;
+    .Game-container{
+        align-items: center;
+        justify-content: center;
     }
-    .bubl-img{
-        height: 150px;
+    .btn-container{
+        align-items: center;
+        justify-content: center;
+    }  
+    body{
+        align-items: center;
+        justify-content: center;
+    }  
+}
+@media screen and (min-width: 600px) and (max-width:972px){
+    body{
+        width: 100%;
     }
-
 }
