@@ -11,6 +11,10 @@ Welcome to our 24x7-Go-Healthier Hospital! We are a dedicated team of healthcare
 - State-of-the-art medical facilities
 - Comprehensive healthcare services
 
+## Sample
+<img src="./img/about.png">
+<img src="./img/appo.png">
+
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript (for bootstrap utilities and icons)
