@@ -172,14 +172,15 @@ width:600px ;
  }
 
 .btn-appo{
- padding: 20px 30px;
-border-radius: 20px;
-background-color:#16c99f;
-color: blac;
-font-size: 20px;
-font-weight: bold;
-margin: 40px auto;
-cursor: pointer;
+  font-size:30px ;
+  padding: 10px;
+  margin: 5px;
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px ;
+  text-align: center;
+   cursor: pointer;
 
 .btn-appo:hover {
 background-color: bisque;
@@ -189,15 +190,36 @@ color: black;
 .text{
 font-size: 25px;
 }
-.btn-join{
-font-size: 20px;
-padding: 5px;
-margin: 5px;
-
+.text-1{
+  font-size: 20px;
+  margin-left: 900px;
 }
-
-
-
+.btn-contact{
+  font-size:30px ;
+  padding: 10px;
+  margin: 5px;
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px ;
+  text-align: center;
+   cursor: pointer;
+}
+.div-1{
+  background-color: #79F1A4;
+  width: 500px;
+  height: 300px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.dark{
+  font-size: 1px;
+  color: white;
+}
 
 
 .logo{

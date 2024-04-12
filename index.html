@@ -11,6 +11,8 @@
             padding-bottom: 60px;
            margin-bottom: 70px;
         }
+        
+       
     </style>
 </head>
 <body>
@@ -41,19 +43,95 @@
         <p>
         <i class="text"> A Person Who Has A Good Physical Health is Likely To Have Bodily <br> Functions And Processess Working At Their Peak </i>
         </p>
-        <h3> <i>Health Is Wealth </i></h3>
+    
         <button class="btn-appo">
      
           Make an Appointment
         </button>
-     <button class="btn-join">
-         Contact Us
+
+     <button class="btn-contact">
+         Contact us
+         <a class="anchor a5" href="./pages/contact.html"></a>
+
      </button>
         
      </div>
+    </div>
+     <div class="text-1">
+        <h2><i>Why Health Care :- </i> </h2>
+        <p >
+            With a population of more than 1.4 Billion, last-mile delivery of healthcare in our country is a big challenge. 
+            The geospatial diversity of the country further aggravates the issues of accessibility and availability of healthcare in difficult terrains. <br>
+            With more than 65% of the population residing in rural areas with a smaller share of the overall healthcare infrastructure, 
+            and the urban slum dwellers prioritising everyday survival over healthcare, uneven distribution and lack of awareness also limit the uptake of existing
+             healthcare services. It is crucial to address these gaps to meet the goals of Universal Health Coverage and support Govt of India's vision of Ayushman Bharat.
 
-</div>
+        </p>
+        <h2><i>What we do..?</i></h2>
+        <p>
+            Smile Foundation’s comprehensive and community-centric health programme takes primary healthcare services to the doorsteps of underserved communities in both rural and urban India. Following a two pronged approach, 
+            the programme provides curative as well as preventive services, addressing the gaps in availability, accessibility and affordability of healthcare.
+        </p>
+     </div>
+     <div class="text-1" >
+        Our Inventions: Telemedicines:  Static Clicnic: Health Camp:  Govt. Convergence:
+        <div class="div-1"onclick="First">
+           <p class="para-1" id="one"></p>
+              Mobile Health care:
+                Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics, 
+                providing OPD services, point-of-care test facilities and medicines.
+           
+            </div>
+             <div class="div-2" onclick="Two">
+           <p class="para-2" i="two">
+                Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics,
+                 providing OPD services, point-of-care test facilities and medicines.</p>
+                </div> 
+             <div class="div-3" onclick="Three">
+           <p class="para-3" id="three">
+            Creating accessible static healthcare centres in remote rural communities providing OPD,
+             medicines, point of care test facilities and counseling, with focus on Physiotherapy Services</p>
+            </div> 
+         <div class="div-4" onclick="Four">
+             <p class="para-4" id="four">
+             Providing need-based healthcare services to specific target groups through standalone
+              health camps with specialized doctors, point of care tests, and sometimes surgical facilities</p>
+        </div>
+        <div class="div-5" onclick="Five">
+             <p class="para-5" id="five">
+              Enhancing reach and capacity of Government Health Centres by integrating telemedicine at sub-centres, training of frontline workers and upgradation of PHCs</p>
+            </p>
+         </div>
+     </div>
+
+
 <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
+<script>
+    function First() {
+        const oneElement = document.getElementById('one');
+        oneElement.src = 'para-1';
+    }
+    function Two() {
+        const twoElement = document.getElementById('two');
+        twoElement.src = 'para-2';
+    }
+    function Three() {
+        const threeElement = document.getElementById('three');
+        threeElement.src = 'para-3';
+    }
+    function Four() {
+        const fourElement = document.getElementById('four');
+        fourElement.src = 'para-4';
+    }
+    function Five() {
+        const fiveElement = document.getElementById('five');
+        fiveElement.src = 'para-5';
+    }
+    function darkMode() {
+        const darkElement = document.getElementById('darkMode');
+        darkElement.src = 'dark';
+    }
+</script>
 </body>
 
 </html>
