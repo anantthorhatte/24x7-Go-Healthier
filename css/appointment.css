@@ -2,7 +2,7 @@
 .app_title{
     margin-top: 70px;
     text-align: center;
-    color: #009973;
+    color: #13A380;
     font-size: 50px;
 }
 .page_title{
@@ -39,11 +39,11 @@
   width:500px;
   background-color: #fff;
   border-radius: 5px;  
-  border: 1px solid #009973;
+  border: 1px solid #13A380;
   text-align: center;
   padding: 8px;
   margin:40px auto;
-  box-shadow: 0 0 3px #009973 ;
+  box-shadow: 0 0 3px #13A380 ;
 }
 
 .app_box{
@@ -51,7 +51,7 @@
     width:90%;
     margin: 0.1px auto;
     border-radius: 5px;
-    border: 1px solid #009973 ;
+    border: 1px solid #13A380 ;
     font-size: 20px;
     padding: 8px 5px;
 
@@ -59,7 +59,7 @@
 
   .app_box:hover{
 
-    box-shadow: 0 0 1px 1px #009973;
+    box-shadow: 0 0 1px 1px #13A380;
     transition: 2s;
   }
 
@@ -67,18 +67,18 @@
  
     display: block;
     border-radius: 5px;
-    border: 1px solid #009973 ;
+    border: 1px solid #13A380 ;
     font-size: 20px;
     color: #009973;
     padding: 8px 12px;
     margin: 2px auto;
-    box-shadow: 0 0 3px  #009973 ;
+    box-shadow: 0 0 3px  #13A380 ;
    
 }
 
 .app_btn:hover{
  
-    box-shadow: 0 0 0 1px #009973 ;
+    box-shadow: 0 0 0 1px #13A380 ;
     transition: 2s;
 }
 
