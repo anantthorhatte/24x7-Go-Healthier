@@ -62,10 +62,23 @@ height: 100px;
     }
     .box-container{
         display: block;
-        align-items: center;
+
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
        
     }
+}
+@media screen and (min-width: 600px) and (max-width: 972px) {
+    .box-container{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        }
+        .l1{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+           
+        }
 }
