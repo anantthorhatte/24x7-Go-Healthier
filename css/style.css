@@ -1,4 +1,10 @@
-
+.app_title{
+   
+  margin-top: 70px;
+  text-align: center;
+  color: #13A380;
+  font-size: 50px;
+}
 /* navbar starts */
 .navbar{
   margin: 0px !important;
