@@ -14,30 +14,27 @@
     </style>
 </head>
 <body>
-    <nav>
-    <div class="menu">
-        <div class="title">
-            
+
+    <div class="navbar">
+        <div class="brand-container">
+            <span class="brand-text"> </span>
         </div>
-<ul  class="names">
-    <li><a href="index.html"><i ><i class="fa-solid fa-house"></i></i>Home</a></li>
-    <li><a href="./pages/about us.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
-    <li><a href="./pages/service.html"><i class="fa-solid fa-bell-concierge"></i>Services</a></li>
-    <li><a href="./pages/appointment.html"><i class="fa-sharp fa-solid fa-stethoscope"></i>Appoinment</a></li>
-    <li><a href="./pages/doctor.html"><i class="fa-sharp fa-regular fa-calendar-check"></i>Doctors</a></li>
-    <li><a href="./pages/review.html"><i class="fa-regular fa-star-sharp"></i>Review</a></li>
-   
-   
-</ul>
+        <img src="./img/logo.png" class="logo">
+             <a class="anchor a1" href="./../index.html"><i class="fa-solid fa-house"></i>Home</a>
+             <a class="anchor a2" href="./about us.html"><i class="fa-solid fa-circle-info"></i>About</a>
+             <a class="anchor a3" href="./service.html"><i class="fa-solid fa-bell-concierge"></i>Services</a>
+             <a class="anchor a4" href="./appointment.html"><i class="fa-sharp fa-solid fa-stethoscope"></i>Appoinment</a>
+            <a class="anchor a5" href="././doctor.html"><i class="fa-sharp fa-regular fa-calendar-check"></i>Doctors</a>
+            <a class="anchor a5" href="./review.html"><i class="fa-regular fa-star-sharp"></i>ReviewReview</a>
 
     </div>
-</nav>
-<div id="div" class="theme-light">
-    </div>
-<div class="page">
-    <img src="./img/homeimg.jpg"  class="home-img">
-    <div class="container">
+
     
+
+<div class="page">
+    
+    <div class="container">
+        <div><img src="./../img/icon.jpeg" class="doc"></div>
 
         <h1> We take Care Of Your  <br> Healthy Life  </h>
         <p>
@@ -45,39 +42,17 @@
         </p>
         <h3> <i>Health Is Wealth </i></h3>
         <button class="btn-appo">
-         <a href="./pages/appointment.html"></a>
+     
           Make an Appointment
         </button>
      <button class="btn-join">
-         Join Us
+         Contact Us
      </button>
         
      </div>
 
 </div>
-<script>
-    function darkMode(){
-        const imgDark= document.getElementById('img-dark');
-        imgDark.classList.add('active');
-
-        const imgLight= document.getElementById('img-light');
-        imgLight.classList.remove('active');
-
-        const bodyElement = document.getElementById('div');
-        bodyElement.className = "theme-dark";
-        }
-    function lightMode(){
-        const imgDark= document.getElementById('img-dark');
-        imgDark.classList.remove('active');
-
-        const imgLight= document.getElementById('img-light');
-        imgLight.classList.add('active');
-
-        const bodyElement = document.getElementById('div');
-        bodyElement.className = "light-dark";
-    }
-</script>
-</div>
+<script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
