@@ -48,16 +48,22 @@
     
    
          <label for="inputFullName"> </label>
-         <input type="text" name="name" placeholder="Enter your name" class="app_box" id="inputFullName" required><br>
+         <input type="text" name="name" placeholder="Enter your name" class="app_box"
+          id="inputFullName" required><br>
 
          <label for="phone"> </label>
-         <input type="tel" name="phone" placeholder="Enter your number" class="app_box" id="phone" required ><br>
+         <input type="tel" name="phone" placeholder="Enter your number" class="app_box" id="phone"
+          required ><br>
 
          <label for="inputEmail"></label>
-         <input type="email" name="email" placeholder="Enter your email" class="app_box" id="inputEmail" required><br>
+         <input type="email" name="email" placeholder="Enter your email" class="app_box"
+          id="inputEmail" required><br>
 
-         <input type="date" name="date" class="app_box" id="appointmentDate"><br>
-        <input type="submit" name="submit" value="Appointment now" class="app_btn" onclick="appointmentNow()"><br>
+         <label for="selectDate"></label>
+         <input type="date" name="date" class="app_box" id="appointmentDate" id="selectDate" 
+                required><br>
+        <input type="submit" name="submit" value="Appointment-now" class="app_btn"
+               onclick="scheduleAppointment()"><br>
       </form>
   </div>
 

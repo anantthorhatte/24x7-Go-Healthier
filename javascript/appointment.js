@@ -1,7 +1,7 @@
 
 function scheduleAppointment(){
-  const takeAppointment = document.getElementById("appointmentDate").value;
-  console.log(takeAppointment);
+  const takeAppointment = document.getElementById("appointmentDate");
+  console.log(`Oppointment Schedule on ${takeAppointment} date`);
 
   const currentDate = new Date();
  
@@ -15,3 +15,5 @@ function scheduleAppointment(){
   } 
   */
 }
+
+scheduleAppointment();
