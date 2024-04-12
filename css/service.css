@@ -31,16 +31,54 @@ border-radius: 10%;
 
 .btn{
 
-
+font-size: bold;
+color: white;
 border: 1px solid black;
-color: black;
-background-color: aquamarine;
-border-radius: 5%;
-padding: 1%;
+background-color:  #13A380;
+border-radius: 7%;
+padding: 3%;
 }
+.btn:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px 5px #b1ebdd;
+    border-radius: 30px;
+}
+
+
 .l1{
 display: flex;
 }
 img{
 height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  
+    .l1{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .box-container{
+        display: block;
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+       
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 972px) {
+    .box-container{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        }
+        .l1{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+           
+        }
 }

@@ -1,0 +1,61 @@
+.main-container{
+    background-color: #13A380;
+    padding: 10px;
+}
+.main{
+    background-color: white;
+    margin: 10px 10px;
+    height: 100%;
+}
+.logo{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.address{
+    font-size: x-large;
+    text-align: right;
+    text-align: center;
+}
+.recipt-card{
+    border-bottom: 1px  solid black;
+}
+.sub-container{
+    text-align: center;
+
+}
+.top-heading{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.confirm-img{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.bottom-text{
+    height: 0px;
+    width: auto;
+    background-color: #13A380;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: x-large;
+    bottom: 10000px;
+}
+.app_title{
+    margin-top: 0px;
+    text-align: center;
+    color: #13A380;
+    font-size: 50px;
+}
