@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   font-family: century Gothic;
@@ -102,3 +103,105 @@ color: white;
   justify-content: center;
 
 }
+=======
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+  }
+  .menu{
+   margin-top: 10px;
+   background-color: aquamarine;
+   height: 100px;
+  }
+  ul{
+  margin-left: 450px;
+   list-style-type: none;
+   display: inline-block;
+  margin-top: 40px;
+  }
+  ul li{
+   display: inline-block;
+  
+  }
+  ul li a{
+   text-decoration: none;
+   color: black;
+   padding: 5px 15px;
+   border: 1px solid black;
+   margin: 25px;
+   border-radius: 10px;
+  
+   
+  }
+  ul li a:hover{
+   background-color: white;
+   color: black;
+  }
+  
+  .container{
+  font-size: 25px;
+  text-align: center;
+  padding-right: 40px;
+  margin-right: 10px ;
+  margin-top: 90px;
+  margin-left:80px;
+  border: 2px solid black;
+  width:600px ;
+  }
+   
+  
+  .btn-appo{
+   padding: 20px 30px;
+  border-radius: 20px;
+  background-color:#13A380;
+  color: blac;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px auto;
+  cursor: pointer;
+  
+  .btn-appo:hover {
+  background-color: bisque;
+  color: black;
+  }
+  }
+  .text{
+  font-size: 20px;
+  }
+  .btn-join{
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  
+  }
+  .theme-icon{
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  
+  }
+  .active{
+  border: 1px solid black;
+  }
+  
+  .home-img{
+   height: 600px;
+   width: 550px;
+   padding-right: 60px;
+   margin-right:1000px;
+   margin-top: 10px;
+   margin-bottom: 1200px;
+ 
+  }
+  .theme-dark{
+  background-color: #333033;
+  color: white;
+  }
+  .page{
+    display: inline;
+
+    border: 2px solid black;
+  }
+>>>>>>> 1144423600bc5ac1b701897030dc8017039b4441

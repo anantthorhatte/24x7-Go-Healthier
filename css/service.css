@@ -11,8 +11,8 @@ body{
 }
 .box-container{
         display:grid;
-    margin: 5%;
-    padding: 8%;
+    margin: 0%;
+    padding: 0%;
     align-items: center;
     width: 100%;
 justify-content: center;
