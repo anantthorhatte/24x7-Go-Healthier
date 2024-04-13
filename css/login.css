@@ -1,0 +1,127 @@
+.app_title1{
+   margin-right: -75px;
+    margin-top: 75px;
+    text-align: center;
+    color: #13A380;
+    font-size: 50px;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./../img/health-still-life-with-copy-space.jpg);
+    background-size: cover;
+  
+  }
+
+
+
+
+.login-left h2 {
+    font-size: 30px;
+    margin-left: 13px;
+}
+.login-left ::placeholder{
+    color: #13A380;
+}
+.login-main {
+    color: #009973;
+}
+
+.login-left input {
+    width: 380px;
+    margin: 13px;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #13A380;
+    background-color: white;
+    padding: 8px 30px;
+    font-weight: 600;
+    border: 1px solid #009973;
+}
+
+.login-left button {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #13A380 ;
+    font-size: 20px;
+    color: #009973;
+    padding: 8px 12px;
+    margin: 3px auto;
+    box-shadow: 0 0 3px  #13A380 ;
+}
+.login-left button:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.login-left button a{
+    color: #13A380;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 30px  0;
+}
+.line{
+    height: 250px;
+    border-left: 3px solid #13A380;
+}
+.login-left{
+    margin: 0 50px;
+}
+.login-options{
+    margin-right: -75px;
+    text-align: center;
+}
+.login-options p{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.login-options .opt-1{
+    width: 350px;
+    color: #13A380;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 8px 15px;
+    border: 1px solid #009973;
+}
+.login-options .opt-2{
+    width: 350px;
+    color: #13A380;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 8px 55px;
+    border: 1px solid #009973;
+}
+.login-options .opt-3{
+    width: 350px;
+    color: #13A380;
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 15px;
+    border: 1px solid #009973;
+}
+.login-main{
+    margin: 50px 0;
+}
+.login-text h1{
+    font-size: 90px;
+    text-align: center;
+    padding: 170px 0;
+    color: #fff;
+    /* color: #e53637; */
+    font-weight: 600;
+}
+.login-left p a{
+    color: #13A380;
+} 
