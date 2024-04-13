@@ -1,0 +1,47 @@
+/* #13A380 */
+.container1{
+    margin: 0px 250px ;
+    display: flex;
+    justify-content: space-around;
+  flex-wrap: wrap; 
+  align-items: center;
+ 
+  margin-top: 150px;
+
+
+}
+.card1{
+    margin: 20px;
+    backdrop-filter: blur(3px);
+    width: 350px;
+    height: 380px;
+    box-shadow: 1px 1px 10px 5px black;
+    border-radius: 5px;
+    
+}
+
+.card1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 5px auto;
+
+}
+
+.card1 h1{
+    text-align: center;
+    
+}
+
+.card1 p{
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+}
+span{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}

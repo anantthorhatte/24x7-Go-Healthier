@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./../img/health-still-life-with-copy-space.jpg);
+    background-size: cover;
+  
+  }
+  .doc{
+    position: relative;
+    left: 650px;
+    height: 200px;
+  width: 200px;
+  top: 90px;
+  }
+  .menu{
+  
+   background-color:#13A380;
+   height: 100px;
+   display: flex;
+   
+  }
+  .logo{
+    height: 65px;
+    width: 80px;
+  }
+  
+  
+  .container{
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px ;
+  margin-top: 20px;
+  height: 800px;
+  width:600px ;
+  }
+   .page{
+    display: flex;
+    margin-left: 900px;
+   }
+  
+  .btn-appo{
+   padding: 20px 30px;
+  border-radius: 20px;
+  background-color:#16c99f;
+  color: blac;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px auto;
+  cursor: pointer;
+  }
+  .btn-appo:hover{
+  background-color: bisque;
+  color: black;
+  }
+  
+  .text{
+  font-size: 20px;
+  }
+  .btn-join{
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  
+  }
+  .logo{
+    padding: 10px;
+    margin-top: 10px;
+    height: 70px;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }

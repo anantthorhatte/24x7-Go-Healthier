@@ -50,86 +50,194 @@ margin-left: 480px;
 
 
 
-/* Footer Ends */
+/* Footer start */
 .footer{
-display: flex;
-position: relative;
-background-color:  black;
-height: 310px;
-margin-top:40px;
-}
-
-.footer_A{
-width: 280px;
-height: 210px;
-padding: 20px;
-margin-top: 2px;
-margin-bottom: 40px;
-}
-.footer_heading{
-color: white;
-text-decoration:underline;
-margin-bottom: 60px;
-margin-left: 25px ;
-}
-
-.footer_info_1{
-font-size: 19px;
-text-align: center;
-text-decoration: none;
-}
-.footer_link{
-text-decoration: none;
-color: white;
-}
-.footer_phone{
-width:30px;
-height: 30px;
-position: relative;
-top: 200px;
-left: 50px;
-color: white;
-}
-.footer_mail{
-width:30px;
-height: 30px;
-position: relative;
-top: 250px;
-left: 20px;
-}
-.footer_icons{
-margin-left: 25px;
-width: 40px;
-height: 40px;
-border-radius: 50%;
-}
-.footer_icons:hover{
-box-shadow: 0px 0px 10px 3px white;
-}
-.footer_B{
-margin-left: 20px;
-margin-top: 20px;
-}
-.footer_heading_1{
-margin-left: 0px;
-color:white;
-text-decoration: underline;
-margin-bottom: 60px;
-
-}
-.footer_info_2{
-margin-left: 10px;
-font-size: 20px;
-color: white;
-}
-
-.map{
-width: 480px;
-margin-right: 90px;
-height: 230px;
-margin-top: 50px;
-}
+  display: flex;
+  position: relative;
+  background-color:  #13A380;
+  background-image: linear-gradient(45deg, #13A380 0%, #f2f7f0 100%);
+  height: 310px;
+  margin-top:40px;
+  }
+  
+  .footer_A{
+  width: 280px;
+  height: 210px;
+  padding: 20px;
+  margin-top: 2px;
+  margin-bottom: 40px;
+  }
+  .footer_heading{
+  color: black;
+  text-decoration:underline;
+  margin-left: 25px ;
+  }
+  
+  .footer_info_1{
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+  }
+  .footer_link{
+  text-decoration: none;
+  color: black;
+  }
+  .footer_phone{
+    color: black;
+    margin-top: -5px;
+  width:30px;
+  height: 30px;
+  position: relative;
+  top: 200px;
+  left: 50px;
+  color: black;
+  }
+  .footer_mail{
+    color: black;
+    margin-top: -11px;
+  width:30px;
+  height: 30px;
+  position: relative;
+  top: 250px;
+  left: 20px;
+  }
+  .footer_icons{
+    
+  margin-left: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  }
+  .footer_icons:hover{
+  box-shadow: 0px 0px 10px 3px white;
+  }
+  .footer_B{
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  }
+  .footer_info{
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .footer_heading_1{
+  margin-left: 0px;
+  color:black;
+  text-decoration: underline;
+  margin-bottom: 60px;
+  
+  }
+  .footer_info_2{
+    
+    margin-top: -35px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+  }
+  
+  .map{
+  width: 480px;
+  margin-right: 90px;
+  height: 230px;
+  margin-top: 50px;
+  }
+  /* Footer Ends */
+  
+  
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./../img/health-still-life-with-copy-space.jpg);
+    background-size: cover;
+  
+  }
+  .doc{
+    position: relative;
+    left: 650px;
+    height: 200px;
+  width: 200px;
+  top: 90px;
+  }
+  .menu{
+  
+   background-color:#13A380;
+   height: 100px;
+   display: flex;
+   
+  }
+  .logo1{
+    height: 65px;
+    width: 80px;
+  }
+  
+  
+  .container{
+  font-size: 25px;
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 170px;
+  height: 800px;
+  width:600px ;
+  }
+   .page{
+    display: flex;
+    margin-left: 900px;
+   }
+  
+  .btn-appo{
+    font-size:30px ;
+    padding: 10px;
+    margin: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px ;
+    text-align: center;
+     cursor: pointer;
+  
+  .btn-appo:hover {
+  background-color: bisque;
+  color: black;
+  }
+  }
+  .text{
+  font-size: 25px;
+  }
+  .text-1{
+    font-size: 20px;
+    margin-left: 900px;
+  }
+  
+  .div-1{
+    background-color: #79F1A4;
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .dark{
+    font-size: 1px;
+    color: white;
+  }
+  
+  
+  .logo{
+    padding: 10px;
+    margin-top: 10px;
+    height: 70px;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
 /* Footer Ends */
+
+
 
 body{
   margin: 0;
@@ -152,7 +260,7 @@ top: 90px;
  display: flex;
  
 }
-.logo{
+.logo1{
   height: 65px;
   width: 80px;
 }
@@ -170,23 +278,24 @@ width:600px ;
   display: flex;
  margin-left: 900px;
  }
-
-.btn-appo{
-  font-size:30px ;
-  padding: 10px;
-  margin: 5px;
-  background-color: aquamarine;
+ .btn-contact{
+    font-size:30px ;
+    padding: 10px;
+    margin: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px ;
+    text-align: center;
+     cursor: pointer;
+ }
+ .btn-contact:hover {
+  background-color:  rgb(5, 107, 73);
   color: black;
-  font-weight: bold;
-  border-radius: 10px ;
-  text-align: center;
-   cursor: pointer;
+  }
+  
+ 
 
-.btn-appo:hover {
-background-color: bisque;
-color: black;
-}
-}
 .text{
 font-size: 25px;
 }
@@ -195,16 +304,19 @@ font-size: 25px;
   margin-left: 900px;
 }
 .btn-contact{
-  font-size:30px ;
-  padding: 10px;
-  margin: 5px;
-  background-color: aquamarine;
-  color: black;
-  font-weight: bold;
-  border-radius: 10px ;
-  text-align: center;
-   cursor: pointer;
-}
+  padding: 20px 30px;
+ border-radius: 20px;
+ background-color:#16c99f;
+ color: blac;
+ font-size: 20px;
+ font-weight: bold;
+ margin: 40px auto;
+ cursor: pointer;
+ }
+ .btn-contact:hover{
+ background-color: bisque;
+ color: black;
+ }
 .div-1{
   background-color: #79F1A4;
   width: 500px;
@@ -229,9 +341,4 @@ font-size: 25px;
   width: 80px;
   margin-bottom: 10px;
   margin-left: 20px;
-}
-@media screen and(max-width:1000px){
-  p{
-    text-align: center;
-  }
 }
