@@ -168,7 +168,7 @@ width:600px ;
 }
  .page{
   display: flex;
-  margin-left: 900px;
+ margin-left: 900px;
  }
 
 .btn-appo{
@@ -229,4 +229,9 @@ font-size: 25px;
   width: 80px;
   margin-bottom: 10px;
   margin-left: 20px;
+}
+@media screen and(max-width:1000px){
+  p{
+    text-align: center;
+  }
 }
