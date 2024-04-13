@@ -29,7 +29,8 @@ body{
   font-size: 25px;
   text-align: center;
   margin-right: 10px ;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-left: 300px;
   height: 800px;
   width:600px ;
   }
@@ -54,7 +55,7 @@ body{
   }
   
   .text{
-  font-size: 20px;
+  font-size: 25px;
   }
   .btn-join{
   font-size: 20px;
