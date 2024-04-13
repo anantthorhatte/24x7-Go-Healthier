@@ -50,7 +50,7 @@ margin-left: 480px;
 
 
 
-/* Footer Ends */
+/* Footer start */
 .footer{
 display: flex;
 position: relative;
@@ -131,6 +131,8 @@ margin-top: 50px;
 }
 /* Footer Ends */
 
+<<<<<<< HEAD
+=======
 body{
   margin: 0;
   padding: 0;
@@ -230,3 +232,4 @@ font-size: 25px;
   margin-bottom: 10px;
   margin-left: 20px;
 }
+>>>>>>> 2f96517d8ba5cc76de67f886bdae8fd9237f78a9
