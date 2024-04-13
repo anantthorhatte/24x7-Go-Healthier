@@ -20,6 +20,8 @@ justify-content: center;
 
 }
 .box{
+    backdrop-filter: blur(20px);
+    color: #13A380;
 width:400px;
 height: 350px;
 border: 2px solid black;
