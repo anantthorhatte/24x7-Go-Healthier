@@ -8,15 +8,19 @@
 .container1{
     height: 950px;
       width: 100%;
-      border: 5px solid black;
-      background-color: white;
+     
+     
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       margin: 20px auto;
-      background-color: white;
-      background-image: linear-gradient(45deg, #13A380 0%, #f2f7f0 100%);
+     
+      
   
+  }
+
+  .app_title1{
+color: white;
   }
   .box1{
       height: 520px;
@@ -52,7 +56,7 @@
       left: 50px;
   }
   .call{
-      background-color: rgb(182, 232, 253);
+      background-color: white;
       position: relative;
       top: 45px;
       border-radius: 50%;
@@ -97,12 +101,13 @@
     bottom: 10px;
   }
   .doc{
-    mix-blend-mode: color-burn;
+   
       position: relative;
       left: 650px;
       height: 200px;
   width: 200px;
   top: 90px;
+ 
   }
   
   .tagline{
