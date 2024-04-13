@@ -11,21 +11,19 @@
      
      
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+      margin-left: 20px;
+      justify-content: space-between ;
       margin: 20px auto;
      
       
   
   }
 
-  .app_title1{
-color: white;
-  }
+  
   .box1{
       height: 520px;
       width: 320px;
-      border: 2px solid black;
+      border: 1px solid black;
     display: block;
     justify-content: center;
     align-items: center;
@@ -35,6 +33,7 @@ color: white;
     top: 350px;
   border-radius: 30px;
   background-color: white;
+  margin-left: 20px;
  
 }
   .statement{
@@ -79,7 +78,8 @@ color: white;
   }
   .info{
       position: relative;
-      left: 20px;
+      left: 6px;
+      font-size: 16px;
   }
   .but{
       height: 50px;
@@ -122,7 +122,53 @@ color: white;
     border-radius: 50%;
     mix-blend-mode: color-burn;
   }
+  .light{
+  position: relative;
+  left: 30px;
+  background-color: white;
+  border-radius: 5px;
+  }
+   .dark{
+    position: relative;
+    left: 40px;
+    background-color: white;
+    border-radius: 5px;
+   } 
+    .active{
+      border: 2px solid black;
+    }
+    .dark-theme{
+background-color: black;
+color: white;
+height: 520px;
+      width: 320px;
+      border: 1px solid black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    right: 100px;
+    margin-top: 20px;
+    position: relative;
+    top: 350px;
+  border-radius: 30px;
   
-    
-    
-     
+  margin-left: 20px;
+    }
+    .light-theme{
+background-color: white;
+color: black;
+
+height: 520px;
+      width: 320px;
+      border: 1px solid black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    right: 100px;
+    margin-top: 20px;
+    position: relative;
+    top: 350px;
+  border-radius: 30px;
+  
+  margin-left: 20px;
+}
