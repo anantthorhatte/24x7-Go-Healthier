@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../css/doctor.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <title>Review</title>
+    <link rel="stylesheet" href="./../css/login.css">
+    <link rel="stylesheet" href="./../css/style.css">
     <link rel="stylesheet" type="text/css" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/medicines.css">
     <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
-    <title>Document</title>
 </head>
+<style>
+
+</style>
 <body>
     <!-- Navbar Section Starts -->
 
@@ -18,9 +21,6 @@
             <span class="brand-text"> </span>
         </div>
         <img src="./../img/logo.png" class="logo">
-        <img src="./../icons/light_mode_FILL0_wght400_GRAD0_opsz24.png" onclick="light()" id="light-1" class="light active">
-       
-        <img src="./../icons/dark_mode_FILL0_wght400_GRAD0_opsz24.png" onclick=" dark()" id="dark-1" class="dark">
         <a class="anchor a1" href="./../index.html"><i class="fa-solid fa-house"></i>Home</a>
              <a class="anchor a2" href="about us.html"><i class="fa-solid fa-circle-info"></i>About</a>
              <a class="anchor a3" href="service.html"><i class="fa-solid fa-bell-concierge"></i>Services</a>
@@ -28,63 +28,36 @@
             <a class="anchor a5" href="doctor.html"><i class="fa-sharp fa-regular fa-calendar-check"></i>Doctors</a>
             <a class="anchor a6" href="review.html"><i class="fa-regular fa-address-book"></i>Review</a>
             <a class="anchor a7" href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
-    
+
     </div>
-    
 
     <!-- Navbar Section Ends -->
 
-    <h1 class="app_title1">OUR SPECIALISTS</h1>
-    
-    <div class="container1" >
-       
-        <div><img src="./../img/doc icon.png" class="doc"></div>
-        
-       <div class="box1" id="body">
-       <img src="./../img/doc1.jpg"  class="img1">
-       <h2 class="text1">Dr. Vineet Sharma</h2>
-       <h2 class="statement">Dermatologist </h2>
-       <h3 class="info">10 years of Experience
-        MBBS, MD - Dermatology
-        Skin And Recon Dermatology & Plastic Surgery Clinic,Bengaluru</h3>
-       <a href="./appointment.html"><button class="but"><h3 class= "but1text" onclick="appointment()">Make Appointment</h3></button></a> 
-       <img src="./../icons/call_FILL0_wght400_GRAD0_opsz24 (1).png" class="call">
-        </div>
+<div class="combo">
+<div class="m-card" >
+ <b class="name">Allopathy:</b><br>
+ <img src="./../img/allo.jpeg" alt=""> <br>
+ Prescribes drugs made by the pharmaceutical industry, typically machine-made with chemical compounds. Examples include antibiotics, pain killers, chemotherapy, etc
+ <br><br><br>
+ <button>Order Now</button>
+</div>
 
-        <div class="box1" id="body">
-        <img src="./../img/doc2.jpeg"  class="img1">
-        <h2 class="text1">Dr. venecia Cruze </h2>
-        <h2 class="statement">Gyneacologist</h2>
-        <h3 class="info">11 years of Experience
-            MBBS, MD - Internal Medicine, DM - Gyneacology
-            Alchemist Hospital. Sector 21. ,Haryana</h3>
-            <button class="but" onclick="appointment()"><h3 class= "but1text">Make Appointment</h3></button>
-        <img src="./../icons/call_FILL0_wght400_GRAD0_opsz24 (1).png" class="call">
-        </div>
+<div class="m-card" >
+    <b class="name">Homeopathy:</b><br>
+    <img src="./../img/homio.jpeg" alt=""> <br>
+    Uses small doses of medication to strengthen the immune system, enabling it to fight the ailment. they may also be in other forms, such as ointments, gels, drops, creams, and tablets
+       <br> <br><br><br>
+        <button>Order Now</button>
+   </div>
 
-         <div class="box1" id="body">
-        <img src="./../img/doc3.jpeg"  class="img1">
-        <h2 class="text1">Dr. Vikram Rathore</h2>
-        <h2 class="statement">Cardiatric </h2>
-        <h3 class="info">16 years of Experience
-            MBBS, MD - General Medicine, DNB - Gastroenterology
-             Institute of Medical Sciences , Nagpur</h3>
-            <button class="but" onclick="appointment()"><h3 class= "but1text">Make Appointment</h3></button>
-        <img src="./../icons/call_FILL0_wght400_GRAD0_opsz24 (1).png" class="call">
-        </div>
-        <div class="box1" id="body">
-        <img src="./../img/doc4.jpeg"  class="img1">
-        <h2 class="text1">Dr. Riya Sharma</h2>
-        <h2 class="statement">Orthopedict </h2>
-        <h3 class="info">14 years of Experience
-            MBBS, DPM - Orthopediac And Physiotherapy
-            Sravani Hospitals,Near Kgaznagar , Hyderabad</h3>
-            <button class="but" onclick="appointment()"><h3 class= "but1text">Make Appointment</h3></button>
-        <img src="./../icons/call_FILL0_wght400_GRAD0_opsz24 (1).png" class="call">
-        </div>
-        
-        
-    </div>
+</div>
+
+
+
+
+
+
+
     <!-- Footer Section Starts -->
       
     <div class="footer">
@@ -102,7 +75,7 @@
             <img class="footer_mail" src="./../icons/Email_img.png" alt="mail">
 
         <div class="footer_B">
-            <h1 class="footer_heading_1">Contact Us</h1>`
+            <h1 class="footer_heading_1">Contact Us</h1>
             <p class="footer_info_2"></p>
         </div>
 
@@ -124,8 +97,6 @@
 </div>
     
   <!-- Footer Section Ends -->
-  <script src="./../javascript/doctor.js">
-
-  </script>
+    
 </body>
 </html>

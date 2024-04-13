@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - 24*7 Healthcare</title>
+  <title>bed-facility</title>
   <link rel="stylesheet" href="./../css/style.css">
-  <link rel="stylesheet" href="./../css/contact.css">
+  <link rel="stylesheet" href="/css/bed-facility.css">
     
     <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
-  
-    
-    
+
+
 </head>
 <body>
    <!-- Navbar Section Starts -->
@@ -32,23 +31,44 @@
 
 <!-- Navbar Section Ends -->
   
-  <div class="contact-container">
-    <h1>Contact Us</h1>
-    <p>Feel free to reach out to us for any inquiries or assistance. We're here to help!</p>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="contact">Contact N0:</label>
-      <input type="text" id="contact" name="contact" required>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-      <div class="submit">
-      <button type="submit">Submit</button>
-      </div>
-    </form>
-  </div>
+
+    <div class="main">
+        <div class="bed-facility" id="facility1">
+            <img src="./../img/hospital_bed-removebg-preview.png" alt="Hospital Bed">
+            <h2>General Ward Bed</h2>
+            <p>Comfortable and affordable beds for general patients.</p>
+            <button onclick="showDetails('facility1')">View Details</button>
+            <div class="details" id="details1">
+                <p>Bed Size: Single</p>
+                <p>Price: $50 per day</p>
+            </div>
+        </div>
+
+        <div class="bed-facility" id="facility2">
+            <img src="./../img/icu-bed-removebg-preview.png" alt="ICU Bed">
+            <h2>ICU Bed</h2>
+            <p>Specialized beds with advanced monitoring and care facilities.</p>
+            <button onclick="showDetails('facility2')">View Details</button>
+            <div class="details" id="details2">
+                <p>Bed Size: Double</p>
+                <p>Price: $200 per day</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showDetails(id) {
+    var details = document.getElementById('details' + id.slice(-1));
+    if (details.style.display === 'none' || details.style.display === '') {
+        details.style.display = 'block';
+    } else {
+        details.style.display = 'none';
+    }
+}
+
+    </script>
+
+
 
     <!-- Footer Section Starts -->
       

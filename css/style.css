@@ -52,83 +52,191 @@ margin-left: 480px;
 
 /* Footer start */
 .footer{
-display: flex;
-position: relative;
-background-color:  black;
-height: 310px;
-margin-top:40px;
-}
-
-.footer_A{
-width: 280px;
-height: 210px;
-padding: 20px;
-margin-top: 2px;
-margin-bottom: 40px;
-}
-.footer_heading{
-color: white;
-text-decoration:underline;
-margin-bottom: 60px;
-margin-left: 25px ;
-}
-
-.footer_info_1{
-font-size: 19px;
-text-align: center;
-text-decoration: none;
-}
-.footer_link{
-text-decoration: none;
-color: white;
-}
-.footer_phone{
-width:30px;
-height: 30px;
-position: relative;
-top: 200px;
-left: 50px;
-color: white;
-}
-.footer_mail{
-width:30px;
-height: 30px;
-position: relative;
-top: 250px;
-left: 20px;
-}
-.footer_icons{
-margin-left: 25px;
-width: 40px;
-height: 40px;
-border-radius: 50%;
-}
-.footer_icons:hover{
-box-shadow: 0px 0px 10px 3px white;
-}
-.footer_B{
-margin-left: 20px;
-margin-top: 20px;
-}
-.footer_heading_1{
-margin-left: 0px;
-color:white;
-text-decoration: underline;
-margin-bottom: 60px;
-
-}
-.footer_info_2{
-margin-left: 10px;
-font-size: 20px;
-color: white;
-}
-
-.map{
-width: 480px;
-margin-right: 90px;
-height: 230px;
-margin-top: 50px;
-}
+  display: flex;
+  position: relative;
+  background-color:  black;
+  height: 310px;
+  margin-top:40px;
+  }
+  
+  .footer_A{
+  width: 280px;
+  height: 210px;
+  padding: 20px;
+  margin-top: 2px;
+  margin-bottom: 40px;
+  }
+  .footer_heading{
+  color: white;
+  text-decoration:underline;
+  margin-left: 25px ;
+  }
+  
+  .footer_info_1{
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+  }
+  .footer_link{
+  text-decoration: none;
+  color: white;
+  }
+  .footer_phone{
+  width:30px;
+  height: 30px;
+  position: relative;
+  top: 200px;
+  left: 50px;
+  color: white;
+  }
+  .footer_mail{
+  width:30px;
+  height: 30px;
+  position: relative;
+  top: 250px;
+  left: 20px;
+  }
+  .footer_icons{
+  margin-left: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  }
+  .footer_icons:hover{
+  box-shadow: 0px 0px 10px 3px white;
+  }
+  .footer_B{
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  }
+  .footer_info{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .footer_heading_1{
+  margin-left: 0px;
+  color:white;
+  text-decoration: underline;
+  margin-bottom: 60px;
+  
+  }
+  .footer_info_2{
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+  }
+  
+  .map{
+  width: 480px;
+  margin-right: 90px;
+  height: 230px;
+  margin-top: 50px;
+  }
+  /* Footer Ends */
+  
+  
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./../img/health-still-life-with-copy-space.jpg);
+    background-size: cover;
+  
+  }
+  .doc{
+    position: relative;
+    left: 650px;
+    height: 200px;
+  width: 200px;
+  top: 90px;
+  }
+  .menu{
+  
+   background-color:#13A380;
+   height: 100px;
+   display: flex;
+   
+  }
+  .logo1{
+    height: 65px;
+    width: 80px;
+  }
+  
+  
+  .container{
+  font-size: 25px;
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 170px;
+  height: 800px;
+  width:600px ;
+  }
+   .page{
+    display: flex;
+    margin-left: 900px;
+   }
+  
+  .btn-appo{
+    font-size:30px ;
+    padding: 10px;
+    margin: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px ;
+    text-align: center;
+     cursor: pointer;
+  
+  .btn-appo:hover {
+  background-color: bisque;
+  color: black;
+  }
+  }
+  .text{
+  font-size: 25px;
+  }
+  .text-1{
+    font-size: 20px;
+    margin-left: 900px;
+  }
+  .btn-contact{
+    font-size:30px ;
+    padding: 10px;
+    margin: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px ;
+    text-align: center;
+     cursor: pointer;
+  }
+  .div-1{
+    background-color: #79F1A4;
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .dark{
+    font-size: 1px;
+    color: white;
+  }
+  
+  
+  .logo{
+    padding: 10px;
+    margin-top: 10px;
+    height: 70px;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
 /* Footer Ends */
 
 
