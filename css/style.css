@@ -209,17 +209,7 @@ margin-left: 480px;
     font-size: 20px;
     margin-left: 900px;
   }
-  .btn-contact{
-    font-size:30px ;
-    padding: 10px;
-    margin: 5px;
-    background-color: aquamarine;
-    color: black;
-    font-weight: bold;
-    border-radius: 10px ;
-    text-align: center;
-     cursor: pointer;
-  }
+  
   .div-1{
     background-color: #79F1A4;
     width: 500px;
@@ -286,25 +276,26 @@ width:600px ;
 }
  .page{
   display: flex;
-  margin-left: 900px;
+ margin-left: 900px;
  }
-
-.btn-appo{
-  font-size:30px ;
-  padding: 10px;
-  margin: 5px;
-  background-color: aquamarine;
+ .btn-contact{
+    font-size:30px ;
+    padding: 10px;
+    margin: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px ;
+    text-align: center;
+     cursor: pointer;
+ }
+ .btn-contact:hover {
+  background-color:  rgb(5, 107, 73);
   color: black;
-  font-weight: bold;
-  border-radius: 10px ;
-  text-align: center;
-   cursor: pointer;
+  }
+  
+ 
 
-.btn-appo:hover {
-background-color: bisque;
-color: black;
-}
-}
 .text{
 font-size: 25px;
 }
@@ -313,16 +304,19 @@ font-size: 25px;
   margin-left: 900px;
 }
 .btn-contact{
-  font-size:30px ;
-  padding: 10px;
-  margin: 5px;
-  background-color: aquamarine;
-  color: black;
-  font-weight: bold;
-  border-radius: 10px ;
-  text-align: center;
-   cursor: pointer;
-}
+  padding: 20px 30px;
+ border-radius: 20px;
+ background-color:#16c99f;
+ color: blac;
+ font-size: 20px;
+ font-weight: bold;
+ margin: 40px auto;
+ cursor: pointer;
+ }
+ .btn-contact:hover{
+ background-color: bisque;
+ color: black;
+ }
 .div-1{
   background-color: #79F1A4;
   width: 500px;
@@ -348,4 +342,3 @@ font-size: 25px;
   margin-bottom: 10px;
   margin-left: 20px;
 }
-
