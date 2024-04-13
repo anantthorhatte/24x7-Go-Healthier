@@ -1,12 +1,17 @@
 /* #13A380 */
 .container1{
-    margin-top: 100px;
+    margin: 0px 250px ;
     display: flex;
     justify-content: space-around;
+  flex-wrap: wrap; 
+  align-items: center;
+ 
+  margin-top: 150px;
 
 
 }
 .card1{
+    margin: 20px;
     backdrop-filter: blur(3px);
     width: 350px;
     height: 380px;

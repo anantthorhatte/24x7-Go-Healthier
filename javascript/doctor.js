@@ -11,7 +11,7 @@ function dark()
        const lightimage = document.getElementById('light-1');
        lightimage.classList.remove("active");
 
-        const darktheme = document.getElementById('body');
+        const darktheme = document.getElementById('body1');
         darktheme.className = 'dark-theme';
         
     }
@@ -26,6 +26,9 @@ function dark()
        const lightimage = document.getElementById('light-1');
        lightimage.classList.add("active");
 
-       const lighttheme = document.getElementById('body');
+       const lighttheme = document.getElementById('body1');
         lighttheme.className = 'light-theme';
     }
+
+
+   
