@@ -8,6 +8,14 @@ function scheduleAppointment(){
  
  }
 
+ function userName()
+{
+  let name =  prompt("Enter your name"); 
+   alert(`${myName} your Appointment has been successfully schedule`);
+  
+
+}
+
 
 
  

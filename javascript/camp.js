@@ -5,3 +5,4 @@ function ChangeImage(imageName){
     mainImage.src = imageName;
 
 }
+
