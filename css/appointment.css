@@ -16,13 +16,13 @@
   display: flex;
   flex-wrap: wrap; 
   align-items: center;
-  margin-left:30px;
+  margin-left:150px;
   margin-top: 90px;
 }
 
 .div_img{
 
-    width: 700px;
+    width: 600px;
 }
 
 .app_img{
@@ -85,5 +85,57 @@
  
     box-shadow: 0 0 0 1px #13A380 ;
     transition: 2s;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px 120px; 
+
+  
+ 
+}
+
+.content-heading{
+  text-align: center;
+  font-size: 50px;
+}
+
+.content-description{
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.card-design{
+
+  width:400px;
+  height: 400px;
+  background-color:#13A380;
+  border: 2px solid white;
+  margin:10px
+}
+
+.card-icon{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 50px
+ 
+}
+
+.card-heading{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+
+}
+
+.card-description{
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
 }
 
