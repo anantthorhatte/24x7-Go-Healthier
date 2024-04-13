@@ -1,0 +1,41 @@
+
+.m-card{
+    margin: 5%;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: #9cf3dd7f;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.combo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-card img{
+    padding: 20px;
+}
+.m-card button
+    {
+        font-size: 20px;
+        padding: 5px 20px;
+        border-radius: 40px;
+        font-size:  bold;
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #13A380;
+        color: #fff;
+    }
+.m-card button:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px 5px #b1ebdd;
+    border-radius: 30px;
+}
