@@ -26,9 +26,8 @@
 }
 
 .app_img{
-
-    background-color: black;
-    width: 100% 
+     
+    width: 100% ;
 }
 
 .app_content_heading{
@@ -41,7 +40,7 @@
 .app_form{
 
   width:500px;
-  background-color: #fff;
+  background-color:#c6ecd8;
   border-radius: 5px;  
   border: 1px solid #13A380;
   text-align: center;
@@ -58,7 +57,7 @@
     border-radius: 5px;
     border: 1px solid #13A380 ;
     font-size: 20px;
-    padding: 8px 5px;
+    padding: 8px 8px;
 
 }
 
