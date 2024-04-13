@@ -69,7 +69,6 @@ margin-bottom: 40px;
 .footer_heading{
 color: white;
 text-decoration:underline;
-margin-bottom: 60px;
 margin-left: 25px ;
 }
 
@@ -109,6 +108,12 @@ box-shadow: 0px 0px 10px 3px white;
 .footer_B{
 margin-left: 20px;
 margin-top: 20px;
+
+}
+.footer_info{
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
 }
 .footer_heading_1{
 margin-left: 0px;
