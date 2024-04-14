@@ -144,15 +144,16 @@ margin-left: 480px;
   }
   /* Footer Ends */
   
+  /*
   
-  
-  body{
+   body{
     margin: 0;
     padding: 0;
     background-image: url(./../img/health-still-life-with-copy-space.jpg);
     background-size: cover;
   
-  }
+  }  */
+  
   .doc{
     position: relative;
     left: 650px;
@@ -239,13 +240,7 @@ margin-left: 480px;
 
 
 
-body{
-  margin: 0;
-  padding: 0;
-  background-image: url(./../img/health-still-life-with-copy-space.jpg);
-  background-size: cover;
 
-}
 .doc{
   position: relative;
   left: 650px;
@@ -342,3 +337,37 @@ font-size: 25px;
   margin-bottom: 10px;
   margin-left: 20px;
 }
+
+.theme-icon{
+  height:30px;
+  width:30px;
+  cursor:pointer;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.active1{
+  border: 1px solid grey;
+}
+
+.theme-dark{
+  background-color: black;
+  color: white;
+  }
+
+  .theme-light{
+    background-color: white;
+    color: black;
+  }
+
+  .theme-heading{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .theme-content{
+    font-size: 20px;
+    padding: 15px;
+    margin: 25px;
+  }
