@@ -6,13 +6,13 @@
   <title>Contact Us - 24*7 Healthcare</title>
   <link rel="stylesheet" href="./../css/style.css">
   <link rel="stylesheet" href="./../css/contact.css">
-    
+  <script src="./../javascript/style.js"></script>
     <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
   
     
     
 </head>
-<body>
+<body id="body">
    <!-- Navbar Section Starts -->
 
    <div class="navbar">
@@ -20,6 +20,13 @@
         <span class="brand-text"> </span>
     </div>
     <img src="/img/logo.png" class="logo">
+    <!--Dark-light theme start-->
+    <img src="./../icons/light_mode_FILL0_wght400_GRAD0_opsz24.png" onclick="lightMode()" 
+    id="img-light" class="theme-icon active1">
+    <img src="./../icons/dark_mode_FILL0_wght400_GRAD0_opsz24.png" onclick="darkMode()" id="img-dark" 
+    class="theme-icon active1">
+
+     <!--Dark-light theme End-->
     <a class="anchor a1" href="./../index.html"><i class="fa-solid fa-house"></i>Home</a>
          <a class="anchor a2" href="about us.html"><i class="fa-solid fa-circle-info"></i>About</a>
          <a class="anchor a3" href="service.html"><i class="fa-solid fa-bell-concierge"></i>Services</a>

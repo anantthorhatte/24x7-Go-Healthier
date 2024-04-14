@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" type="text/css" href="./../css/style.css">
+    <script src="./../javascript/style.js"></script>
     <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
+<body id="body">
     <!-- Navbar Section Starts -->
 
     <div class="navbar">
@@ -18,11 +19,13 @@
             <span class="brand-text"> </span>
         </div>
         <img src="./../img/logo.png" class="logo">
-        <img src="./../icons/light_mode_FILL0_wght400_GRAD0_opsz24.png" onclick="light()" 
-        id="light-1" class="light active">
-       
-        <img src="./../icons/dark_mode_FILL0_wght400_GRAD0_opsz24.png" onclick=" dark()" id="dark-1" 
-        class="dark">
+        <!--Dark-light theme start-->
+    <img src="./../icons/light_mode_FILL0_wght400_GRAD0_opsz24.png" onclick="lightMode()" 
+    id="img-light" class="theme-icon active1">
+    <img src="./../icons/dark_mode_FILL0_wght400_GRAD0_opsz24.png" onclick="darkMode()" id="img-dark" 
+    class="theme-icon active1">
+
+     <!--Dark-light theme End-->
         <a class="anchor a1" href="./../index.html"><i class="fa-solid fa-house"></i>Home</a>
              <a class="anchor a2" href="about us.html"><i class="fa-solid fa-circle-info"></i>About</a>
              <a class="anchor a3" href="service.html"><i class="fa-solid fa-bell-concierge"></i>Services</a>
@@ -43,7 +46,7 @@
         <div> <img src="./../img/doc icon.png" class="doc"> </div>
        
         
-       <div class="box1" id="body1">
+       <div class="box1" id="body">
        <img src="./../img/doc1.jpg"  class="img1">
        <h2 class="text1">Dr. Vineet Sharma</h2>
        <h2 class="statement">Dermatologist </h2>
@@ -54,7 +57,7 @@
        <img src="./../icons/call_FILL0_wght400_GRAD0_opsz24 (1).png" class="call">
         </div>
 
-        <div class="box1" id="body1">
+        <div class="box1" id="body">
         <img src="./../img/doc2.jpeg"  class="img1">
         <h2 class="text1">Dr. venecia Cruze </h2>
         <h2 class="statement">Gyneacologist</h2>
@@ -65,7 +68,7 @@
         <img src="./../icons/call_FILL0_wght400_GRAD0_opsz24 (1).png" class="call">
         </div>
 
-         <div class="box1" id="body1">
+         <div class="box1" id="body">
         <img src="./../img/doc3.jpeg"  class="img1">
         <h2 class="text1">Dr. Vikram Rathore</h2>
         <h2 class="statement">Cardiatric </h2>

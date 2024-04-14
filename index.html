@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script src="./../javascript/style.js"></script>
 
    
 
@@ -21,13 +22,20 @@
        
     </style>
 </head>
-<body>
+<body id="body">
 
     <div class="navbar">
         <div class="brand-container">
             <span class="brand-text"> </span>
         </div>
         <img src="./img/logo.png" class="logo">
+        <!--Dark-light theme start-->
+    <img src="./../icons/light_mode_FILL0_wght400_GRAD0_opsz24.png" onclick="lightMode()" 
+    id="img-light" class="theme-icon active1">
+    <img src="./../icons/dark_mode_FILL0_wght400_GRAD0_opsz24.png" onclick="darkMode()" id="img-dark" 
+    class="theme-icon active1">
+
+     <!--Dark-light theme End-->
              <a class="anchor a1" href="./index.html"><i class="fa-solid fa-house"></i>Home</a>
              <a class="anchor a2" href="./pages/about us.html"><i class="fa-solid fa-circle-info"></i>About</a>
              <a class="anchor a3" href="./pages/service.html"><i class="fa-solid fa-bell-concierge"></i>Services</a>
@@ -50,12 +58,12 @@
         <i class="text"> A Person Who Has A Good Physical Health is Likely To Have Bodily <br> Functions And Processess Working At Their Peak </i>
         </p>
     
-        <button class="btn-appo">
-     
-          Make an Appointment
+        <button class="btn-appo"onclick="alert('Redirecting to Appoinment page')">
+     <a href="./pages/appointment.html">Make an Appointment</a>
+          
         </button>
 
-     <button class="btn-contact">
+     <button class="btn-contact"onclick="alert('Redirecting to Contact page')">
          Contact us
          <a class="anchor a5" href="./pages/contact.html"></a>
 
@@ -123,11 +131,7 @@
             text.innerText="Providing need-based healthcare services to specific target groups through standalone health camps with specialized doctors, point of care tests, and sometimes surgical facilities";
         }
 
-        function darkMode() {
-        const darkElement = document.getElementById('darkMode');
-        imgElement.src = 'dark';
-    }
-
+        
     </script>
 
 <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
