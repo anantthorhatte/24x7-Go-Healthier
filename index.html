@@ -79,52 +79,53 @@
             the programme provides curative as well as preventive services, addressing the gaps in availability, accessibility and affordability of healthcare.</i>
         </p>
      </div>
-    
-             
-     <div >
-       <div class="container-1" > <img src="./img/ambulance.png" class="img-1" id="one">Our Inventions: <br><br>
-        <i> Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics, 
-          providing OPD services, point-of-care test facilities and medicines.</i></div>
-
-        <div class="container-1"><img src="./img/medicine (1).png" class="img-1" id="two">Mobile Health care: <br><br>
-        <i> Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics, 
-          providing OPD services, point-of-care test facilities and medicines.</i></div>
-
-        <div class="container-1"><img src="./img/hospital.png" class="img-1" id="three"><i>Static Clicnic: <br><br>
-             Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics,
-            providing OPD services, point-of-care test facilities and medicines></i>.</p></div>
-
-        <div class="container-1"><img src="./img/healthcamp.png" class="img-1" id="four"><i>Health Camp: <br><br>
-             Providing need-based healthcare services to specific target groups through standalone 
-            health camps with specialized doctors, point of care tests, and sometimes surgical facilities</i> </p></div>
-    </div>
-    <div class="btn-container">
+    <br> <br>
+     <div class="btn-container">
         <button class="btn-design" onclick="turnOn1()"> Our Inventions: </button>
         <button class="btn-design" onclick="turnOn2()">Telemedicines: </button>
         <button class="btn-design" onclick="turnOn3()">Static Clicnic:</button>
         <button class="btn-design" onclick="turnOn4()"> Health Camp:</button>
     </div>
+
+     <div >
+       <div class="container-1" >
+         <img src="./img/ambulance.png" class="img-1" id="img" > Inventions: <br><br>
+         <i id="text"> Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics, 
+            providing OPD services, point-of-care test facilities and medicines.</i></div>
+  
+       
+    </div>
+    
+
     <script>
         function turnOn1(){
-            const oneElement = document.getElementById('one');
-            oneElement.src = 'hosipital.png'
+            const imgElement = document.getElementById('img');
+            imgElement.src = './img/ambulance.png';
+            const text = document.getElementById('text');
+            text.innerText="Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics, providing OPD services, point-of-care test facilities and medicines";
         }
         function turnOn2(){
-            const twoElement = document.getElementById('two');
-            twoElement.src = 'medicine (1).png';
+            const imgElement = document.getElementById('img');
+            imgElement.src = './img/medicine (1).png';
+            const text = document.getElementById('text');
+            text.innerText="Connecting people from remote rural areas with doctors for specialized healthcare from nearby urban health centres, through e-Health Kiosks and Telemedicine Centres staffed with paramedics";
         }
         function turnOn3(){
-            const threeElement = document.getElementById('three');
-            threeElement.src = 'hospital.png';
+            const imgElement = document.getElementById('img');
+            imgElement.src = './img/hospital.png';
+            const text = document.getElementById('text');
+            text.innerText="Creating accessible static healthcare centres in remote rural communities providing OPD, medicines, point of care test facilities and counseling, with focus on Physiotherapy Services";
         }
         function turnOn4(){
-            const fourElement = document.getElementById('four');
-            fourElement.src = 'healthcamp';
+            const imgElement = document.getElementById('img');
+            imgElement.src = './img/healthcamp.png';
+            const text = document.getElementById('text');
+            text.innerText="Providing need-based healthcare services to specific target groups through standalone health camps with specialized doctors, point of care tests, and sometimes surgical facilities";
         }
 
         function darkMode() {
         const darkElement = document.getElementById('darkMode');
-        darkElement.src = 'dark';
+        imgElement.src = 'dark';
     }
 
     </script>

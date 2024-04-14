@@ -87,6 +87,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 20px;
+    margin-left: 900px;
 }
 .btn-design{
   height: 50px;
