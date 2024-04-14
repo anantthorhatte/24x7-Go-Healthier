@@ -90,7 +90,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 30px 120px; 
+  
  
  
 }
@@ -112,15 +112,15 @@
   height: 400px;
  background-color:#13A380;
   border: 2px solid white;
-  margin:10px;
+  
+  padding: 50px;
 }
 
 .card-icon{
   display: block;
   width: 100px;
   height: 100px;
-  margin: 0 auto;
-  padding-top: 50px
+  
   
  
 }
