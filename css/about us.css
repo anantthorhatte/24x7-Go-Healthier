@@ -42,3 +42,56 @@ body{
   margin-left: 600px;
   border-radius: 10px 10px 10px 10px;
 }
+
+.Clients{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline ;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+}
+.card_d{
+  border-radius: 10px;
+  width: 210px;
+  height: 300px;
+  overflow: hidden;
+  padding: 5px 7px;
+  margin-top: 60px;
+  box-shadow: 0px 0px 15px 3px black;
+  text-align: center;
+  background-color: white;
+
+  
+}
+.card_d img{
+  border-radius: 50%;
+  width: 200px;
+  height: 170px;
+}
+.name{
+  font-family: 'Poppins', sans-serif;
+  font: 20px; 
+  font-size: 25px;
+   margin-top: 10px;
+}
+.info1{
+  font-size: 17px;
+  font-weight: 200;
+  margin-top: 10px;
+  text-align: justify;
+  padding: 0px 5px;
+}
+
+.github{
+  height: 20px;
+  width: 20px;
+}
+.linkedin{
+  height: 20px;
+  width: 20px;
+}
