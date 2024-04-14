@@ -70,4 +70,40 @@ body{
     width: 80px;
     margin-bottom: 10px;
     margin-left: 20px;
-  }
+  } 
+  .container-1{
+ margin-left: 1200px;
+    width: 400px;
+}
+.img-1{
+    height: 150px;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.btn-design{
+  height: 50px;
+  font-size: 20px;
+  padding: 5px 5x ;
+  border-radius: 10px 40px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: rgb(9, 179, 122);
+}
+.btn-design:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 600px){
+.container{
+width: 60%;
+}
+.img{
+height: 150px ; 
+}
+}
