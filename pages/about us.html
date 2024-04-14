@@ -7,12 +7,13 @@
     <title>About</title>
     <link rel="stylesheet" href="./../css/about us.css">
     <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/appointment.css">
     
     <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<!-- Navbar Section Starts -->
+<!-- Navbar Section Starts -->                        
 
 <div class="navbar">
     <div class="brand-container">
@@ -34,9 +35,12 @@
     
 <h1 class="app_title">ABOUT US</h1>
     <div class="about"> 
-        <img class="cartoon"  src="./../img/about-1st-img.jpg">
+        <img class="cartoon" onclick="showDetails('facility1')" src="./../img/about-1st-img.jpg">
         
-        <p class="desc"><u><b>Take The World's Best Quality Tratment </b></u><br><br>
+
+
+        <p class="desc" id="details1"><u>Take The World's Best Quality Tratment</u><br><br>
+
         
             <i>Today’s companies in the health and wellness space are plagued by rising costs,
             staffing issues, and increasingly strict regulation that makes it difficult to keep
@@ -46,11 +50,14 @@
             org’s reputation, bottom line, and employee morale. But the stakes are even higher for
             healthcare project management.</i>
         </p></div> 
-        <hr>
+        
 
 <div class="about"> 
-    
-    <p class="desc"><u><b>Take The World's Best Quality Tratment</b> </u><br><br>
+
+    <img class="cartoon"  onclick="showDetails('facility2')" src="./../img/about2-img.jpg">
+
+    <p class="desc" id="details2"><u>Take The World's Best Quality Tratment </u><br><br>
+
     
    <i>Health care, or healthcare, is the improvement of health via the prevention, diagnosis, treatment,
     amelioration or cure of disease, illness, injury, and other physical and mental impairments in people.
@@ -58,8 +65,8 @@
     midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic
     training, and other health professions all constitute health care.</i>
     </p>
-    
-    <img class="cartoon"  src="./../img/about2-img.jpg">
+
+
 </div> 
 <!-- Footer Section Starts -->
 <div class="footer">
@@ -106,11 +113,20 @@
         <img class="footer_icons" src="./../icons/instagram.png" alt="instagram">
         <img class="footer_icons" src="./../icons/twitter.png" alt="twitter">
     </div>
-      
+    </div>
+    <!-- Footer Section Ends -->
 
-        
-</div>
+    <script>
+        function showDetails(id) {
+    var details = document.getElementById('details' + id.slice(-1));
+    if (details.style.display === 'none' || details.style.display === '') {
+        details.style.display = 'block';
+    } else {
+        details.style.display = 'none';
+    }
+}
 
-<!-- Footer Section Ends -->
+    </script>
+
 </body>
 </html>
