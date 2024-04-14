@@ -52,9 +52,9 @@
          <h2 class="app_content_heading">Make Appointment</h2>
     
    
-         <label for="inputFullName"> </label>
+         <label for="inputFullName" placeholder="app-username"> </label>
          <input type="text" name="name" placeholder="Enter your name" class="app_box"
-          id="inputFullName" id="myName" required><br>
+          id="inputFullName" required><br>
 
          <label for="phone"> </label>
          <input type="tel" name="phone" placeholder="Enter your number" class="app_box" id="phone"
@@ -202,6 +202,12 @@
         
           function scheduleAppointment()
           {
+            let appElement = document.getElementById("inputFullName").value;
+            alert(appElement  + ' your appointment has been successfully schedule!😊✅');
+          }
+       
+       
+       /*   {
            let  confirmAppointment = alert(`Your Appointment has been successfully schedule!😊✅`);
           }
 
@@ -212,7 +218,7 @@
            } else {
             appDetails.style.display = 'none';
          }
-        }
+        }   */
 
 
 
