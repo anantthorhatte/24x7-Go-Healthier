@@ -79,66 +79,57 @@
             the programme provides curative as well as preventive services, addressing the gaps in availability, accessibility and affordability of healthcare.</i>
         </p>
      </div>
-     <div class="text-1" >
-        Our Inventions: Telemedicines:  Static Clicnic: Health Camp:  Govt. Convergence:
-        <div class="div-1"onclick="First">
-           <p class="para-1" id="one"></p>
-              Mobile Health care:
-              <i> Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics, 
-                providing OPD services, point-of-care test facilities and medicines.</i>
-           
-            </div>
-             <div class="div-2" onclick="Two">
-           <p class="para-2" i="two">
-               <i> Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics,
-                 providing OPD services, point-of-care test facilities and medicines></i>.</p>
-                </div> 
-             <div class="div-3" onclick="Three">
-           <p class="para-3" id="three">
-           <i>Creating accessible static healthcare centres in remote rural communities providing OPD,
-             medicines, point of care test facilities and counseling, with focus on Physiotherapy Services</i> </p>
-            </div> 
-         <div class="div-4" onclick="Four">
-             <p class="para-4" id="four">
-            <i> Providing need-based healthcare services to specific target groups through standalone
-              health camps with specialized doctors, point of care tests, and sometimes surgical facilities</i> </p>
-        </div>
-        <div class="div-5" onclick="Five">
-             <p class="para-5" id="five">
-             <i> Enhancing reach and capacity of Government Health Centres by integrating telemedicine at sub-centres, training of frontline workers and upgradation of PHCs</i> </p>
-            </p>
-         </div>
-     </div>
-
-
-<script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
-<script>
     
-    function First() {
-        const oneElement = document.getElementById('one');
-        oneElement.src = 'para-1';
-    }
-    function Two() {
-        const twoElement = document.getElementById('two');
-        twoElement.src = 'para-2';
-    }
-    function Three() {
-        const threeElement = document.getElementById('three');
-        threeElement.src = 'para-3';
-    }
-    function Four() {
-        const fourElement = document.getElementById('four');
-        fourElement.src = 'para-4';
-    }
-    function Five() {
-        const fiveElement = document.getElementById('five');
-        fiveElement.src = 'para-5';
-    }
-    function darkMode() {
+             
+     <div >
+       <div class="container-1" > <img src="./img/ambulance.png" class="img-1" id="one">Our Inventions: Mobile Health care:
+        <i> Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics, 
+          providing OPD services, point-of-care test facilities and medicines.</i></div>
+
+        <div class="container-1"><img src="./img/medicine (1).png" class="img-1" id="two">Mobile Health care:
+        <i> Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics, 
+          providing OPD services, point-of-care test facilities and medicines.</i></div>
+
+        <div class="container-1"><img src="./img/hospital.png" class="img-1" id="three"><i> Reaching the unreached through fully-equipped Mobile Healthcare Units staffed with doctors and paramedics,
+            providing OPD services, point-of-care test facilities and medicines></i>.</p></div>
+
+        <div class="container-1"><img src="./img/healthcamp.png" class="img-1" id="four"><i> Providing need-based healthcare services to specific target groups through standalone
+            health camps with specialized doctors, point of care tests, and sometimes surgical facilities</i> </p></div>
+    </div>
+    <div class="btn-container">
+        <button class="btn-design" onclick="turnOn1()"> Our Inventions: </button>
+        <button class="btn-design" onclick="turnOn2()">Telemedicines: </button>
+        <button class="btn-design" onclick="turnOn3()">Static Clicnic:</button>
+        <button class="btn-design" onclick="turnOn4()"> Health Camp:</button>
+    </div>
+    <script>
+        function turnOn1(){
+            const bulbElement = document.getElementById('one');
+            bulbElement.src = 'ambulance.png';
+        }
+        function turnOn2(){
+            const bulbElement = document.getElementById('two');
+            bulbElement.src = 'medicine (1).png';
+        }
+        function turnOn3(){
+            const bulbElement = document.getElementById('three');
+            bulbElement.src = 'hospital.png';
+        }
+        function turnOn4(){
+            const bulbElement = document.getElementById('four');
+            bulbElement.src = 'healthcamp';
+        }
+
+        function darkMode() {
         const darkElement = document.getElementById('darkMode');
         darkElement.src = 'dark';
     }
-</script>
+
+    </script>
+
+<script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
+
+    
 <!-- Footer Section Starts -->
 <div class="footer">
 
