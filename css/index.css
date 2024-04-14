@@ -72,16 +72,17 @@ body{
     margin-left: 20px;
   } 
   .container-1{
+    height: 100px;
  margin-left: 1200px;
-    width: 400px;
-}
-.img-1{
-    height: 150px;
-    border-radius: 10px; 
+ width: 600px;
+ margin-bottom: 10px;
+ border-radius: 10px; 
     display: flex;
     justify-content: center;
     background-color: aquamarine;
 }
+
+
 .btn-container{
     display: flex;
     justify-content: center;
