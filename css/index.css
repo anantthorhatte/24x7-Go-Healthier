@@ -1,5 +1,11 @@
 
-  
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(./../img/health-still-life-with-copy-space.jpg);
+  background-size: cover;
+
+}
   .doc{
     position: relative;
     left: 650px;
